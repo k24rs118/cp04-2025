@@ -57,6 +57,9 @@
         font-size: 10px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
     }
+    button {
+        background-color:blue;
+    }
     
     #minute {
         font-size: 30px;
