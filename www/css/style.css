@@ -66,6 +66,13 @@
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
         
     }
+    #btnD {
+        font-size: 20px;
+        position:absolute; top:550px; left:2%; width:40%; height:90px; 
+        background-color: red;
+        color: black;
+        
+    }
     button {
         color:blue;
         font-family: Times;
