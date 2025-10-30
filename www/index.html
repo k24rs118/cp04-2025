@@ -38,6 +38,10 @@
         $('#btnC').click(function(e) {
             btnCClick(e);
         });
+
+        $('#btnD').click(function(e) {
+            btnDClick(e);
+        });
         init();
     });
     
@@ -162,6 +166,7 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
+        $('#btnD').prop('disabled', false);
         
     }
 
@@ -202,6 +207,11 @@
         $("#time").html("経過時間： 0");
         $("#remain").html("残り時間： " + period);
     }
+    function btnDClick(e) {
+        var currentSeconds = parseInt( $("#second").val() );
+        $("#second").val( currentSeconds + 15 );
+    }
+
     
  
     // 繰り返し実行する処理
